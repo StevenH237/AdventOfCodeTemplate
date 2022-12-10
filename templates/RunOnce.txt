@@ -11,6 +11,7 @@ public static class RunOnceDayXMain
   public static void Run()
   {
     WasRun = true;
+    var file = File.ReadAllLines(Filename);
     Part1Answer = "";
     Part2Answer = "";
   }
